@@ -1,0 +1,25 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main hexagon -->
+  <path d="M16 4 L24 8 L24 16 L24 24 L16 28 L8 24 L8 16 L8 8 Z" fill="url(#logoGradient)" stroke="#ffffff" stroke-width="0.5"/>
+  
+  <!-- Inner diamond -->
+  <path d="M16 8 L20 12 L20 16 L20 20 L16 24 L12 20 L12 16 L12 12 Z" fill="#ffffff" opacity="0.15"/>
+  
+  <!-- Stylized 'C' with modern twist -->
+  <path d="M18.5 11 Q20 12 20 14 Q20 16 20 18 Q20 20 18.5 21 Q17 22 15 21 Q13 20 12.5 18 Q12 16 12.5 14 Q13 12 15 11 Q16.5 10.5 18 11" stroke="url(#accentGradient)" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Modern accent triangles -->
+  <path d="M22 6 L26 8 L24 12 Z" fill="url(#accentGradient)" opacity="0.7"/>
+  <path d="M6 20 L10 24 L6 26 Z" fill="url(#accentGradient)" opacity="0.5"/>
+</svg>
